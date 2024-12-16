@@ -5,6 +5,7 @@ Here’s a comprehensive README.md file for your GitHub repository:
 I'll be working to expand and enhance the capabilities of this, it's just something I threw together from my phone, so yeah... Contributions are welcomed.
 
 ---
+## RESULTS FROM RUNNING IT ON A TARGET THAT GAVE ME PERMISSION (please excuse the phone output, I'm trying my best from this god damn little thing...)
 ![phone_result_snaphot](<https://github.com/MKlolbullen/Multipayloader/blob/28eaecfe2b17c9c75b8e40cd48478462b730c246/Screenshot_20241216_014713_Termux~2.jpg>)
 
 ---
