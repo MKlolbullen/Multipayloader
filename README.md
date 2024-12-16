@@ -2,6 +2,7 @@
 A beta test for a multi target attack with a multi payload type.
 Here’s a comprehensive README.md file for your GitHub repository:
 
+I'll be working to expand and enhance the capabilities of this, it's just something I threw together from my phone, so yeah... Contributions are welcomed.
 
 ---
 
@@ -75,15 +76,26 @@ Prerequisites
 2. Install required tools:
 
 assetfinder
+
 `go install github.com/tomnomnom/assetfinder@latest`
+
 subfinder
+
 `go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest`
+
 httprobe
+
 `go install github.com/tomnomnom/httprobe@latest`
+
 urlfinder
+
 `pip install urlfinder`
+
 gospider
+
 `go install github.com/jaeles-project/gospider@latest`
+
+
 curl
 I'm assuming that you already have python, golang and curl installed.
 
@@ -120,14 +132,13 @@ Test each URL for vulnerabilities using the provided payloads.
 Save results to results.json and results.csv.
 
 
-
-
-
 ---
 
 Example Output
 
+
 Terminal Output:
+
 
 ```
 Enter domain: example.com
@@ -142,12 +153,14 @@ Analyzing https://example.com/page...
 [XSS] Success: https://example.com/page?param=%3Cscript%3Ealert%281%29%3C%2Fscript%3E
 [LFI] Testing: https://example.com/page?param=..%2F..%2Fetc%2Fpasswd
 [LFI] Success: https://example.com/page?param=..%2F..%2Fetc%2Fpasswd
-``
+
 Results saved to results.json.
 Results saved to results.csv.
 
 Results File (JSON):
-`
+
+
+
 [
     {
         "url": "https://example.com/page?param=..%2F..%2Fetc%2Fpasswd",
@@ -156,7 +169,8 @@ Results File (JSON):
         "status": "Potential Vulnerability"
     }
 ]
-`
+
+```
 
 ---
 
