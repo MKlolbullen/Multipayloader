@@ -6,11 +6,11 @@ I'll be working to expand and enhance the capabilities of this, it's just someth
 
 ---
 
-MultiPayloadAttacker / Automated Vulnerability Scanner
+### MultiPayloadAttacker / Automated Vulnerability Scanner
 
 An automated vulnerability scanner designed to discover and test potential security vulnerabilities in web applications. This tool leverages popular subdomain and URL discovery tools like assetfinder, subfinder, urlfinder, and gospider, combined with a suite of payloads targeting various vulnerabilities.
 
-Features
+## Features
 
 Payload Categories:
 
@@ -185,7 +185,7 @@ MAX_WORKERS = 20  # Adjust based on system resources
 
 ---
 
-Extending the Scanner
+#### Extending the Scanner
 
 1. Add New Payloads:
 
@@ -209,7 +209,7 @@ Modify the save_results function to include additional fields or formats.
 
 ---
 
-Disclaimer
+## Disclaimer
 
 This tool is intended for ethical hacking and security research purposes only. Do not use it on domains or applications without proper authorization. The authors are not responsible for any misuse of this tool.
 
